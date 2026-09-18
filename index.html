@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TOTVS Start — Apresentação</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--
+======================================================================
+ GUIA RÁPIDO PARA QUEM VAI EDITAR
+======================================================================
+ 1) Para trocar TEXTOS, edite SOMENTE este arquivo: index.html
+ 2) Cada slide começa com um comentário: "SLIDE X"
+ 3) Pode alterar textos entre as tags <h1>, <h2>, <h3>, <p>, <span>, <b>
+ 4) Evite apagar ou alterar: class="...", id="..." e data-presenter="..."
+ 5) Para mudar o nome de quem apresenta um slide, altere apenas o valor de
+    data-presenter, por exemplo: data-presenter="RAFAELA"
+ 6) Aparência/cores ficam em css/style.css
+ 7) Navegação e cronômetro ficam em js/apresentacao.js
+======================================================================
+-->
+
+<div class="progress" id="progress"></div>
+<div class="hud"><span class="who" id="who">GRUPO</span><span class="pipe">|</span><span class="timer" id="timer">00:00</span><span class="pipe">|</span><span class="counter" id="counter">1 / 9</span></div>
+<nav class="dots" aria-label="Navegação"><a href="#s1"></a><a href="#s2"></a><a href="#s3"></a><a href="#s4"></a><a href="#s5"></a><a href="#s6"></a><a href="#s7"></a><a href="#s8"></a><a href="#s9"></a></nav>
+
+
+<!-- ==================== SLIDE 1 — CAPA ==================== -->
+<section id="s1" class="slide cover" data-presenter="GRUPO">
+  <div class="wrap">
+    <div class="cover-grid">
+      <div class="reveal">
+        <div class="cover-kicker eyebrow orange">Trabalho de reposicionamento de marca</div>
+        <div class="cover-brand"><div class="totvs">TOTVS</div><div class="start">START</div></div>
+        <h1 class="display">Comece com o essencial.<br>Cresça sem trocar de sistema.</h1>
+        <p class="cover-copy">Uma proposta acadêmica de entrada mais simples e acessível para micro e pequenas empresas.</p>
+      </div>
+      <div class="cover-side reveal" aria-hidden="true">
+        <div class="orbit">
+          <span class="tag t1">Financeiro</span><span class="tag t2">Vendas</span><span class="tag t3">Fiscal</span><span class="tag t4">Estoque</span>
+        </div>
+      </div>
+    </div>
+    <div class="cover-meta reveal">
+      <!-- EDITE AQUI: integrantes e RAs -->
+      <div class="members-inline">
+        <span>Isabelle Alves Teodoro <small>· F36FCJ2</small></span>
+        <span>Luiz Eduardo Souza Rocha <small>· R4433H3</small></span>
+        <span>Lucas Souza Lucena <small>· H003CB1</small></span>
+        <span>Rafaela Gomes dos Santos <small>· F36HFJ7</small></span>
+        <span>Rainná Nascimento Oliveira <small>· F36IEA9</small></span>
+      </div>
+      <!-- EDITE AQUI: curso, disciplina, professor e ano -->
+      <div class="course">UNIVERSIDADE PAULISTA — UNIP<br>Administração · Comunicação Integrada a Marketing e Vendas<br>Prof. Me. Carlos Guimarães · 2026</div>
+    </div>
+  </div>
+  <div class="scrollcue">Deslize para continuar ↓</div>
+</section>
+
+
+<!-- ==================== SLIDE 2 — ROTEIRO / AGENDA ==================== -->
+<section id="s2" class="slide alt" data-presenter="GRUPO">
+  <div class="wrap">
+    <div class="agenda-head reveal">
+      <div class="eyebrow">Roteiro · 5 etapas</div>
+      <h2 class="display title-lg">Uma narrativa simples: do cenário à solução.</h2>
+    </div>
+    <div class="agenda-list">
+      <div class="agenda-item reveal"><div class="agenda-num">01</div><h3>Empresa e cenário</h3><p>Posicionamento, concorrentes, campanha e diagnóstico.</p></div>
+      <div class="agenda-item reveal"><div class="agenda-num">02</div><h3>Público + objetivo</h3><p>Persona Camila e metas da campanha.</p></div>
+      <div class="agenda-item reveal"><div class="agenda-num">03</div><h3>A campanha</h3><p>Conceito, headline, oferta e peça principal.</p></div>
+      <div class="agenda-item reveal"><div class="agenda-num">04</div><h3>Integração</h3><p>Folheto, QR Codes e aprofundamento digital.</p></div>
+      <div class="agenda-item reveal"><div class="agenda-num">05</div><h3>Fechamento</h3><p>Conclusão, referências e perguntas.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SLIDE 3 — EMPRESA + CENÁRIO ==================== -->
+<section id="s3" class="slide white" data-presenter="INTEGRANTE 1">
+  <div class="wrap">
+    <div class="scenario-top">
+      <div class="reveal">
+        <div class="eyebrow orange">01 · Empresa + cenário</div>
+        <h2 class="display title-md">A TOTVS já atende pequenos negócios.</h2>
+        <p class="lead">A oportunidade está em tornar a primeira entrada ainda mais simples, prática e acessível.</p>
+      </div>
+      <div class="scenario-quote reveal"><p>“Menor complexidade para começar. Estrutura para crescer depois.”</p></div>
+    </div>
+    <div class="scenario-bottom">
+      <div class="big-stats reveal">
+        <div class="big-stat"><strong>≈70 mil</strong><span>clientes</span></div>
+        <div class="big-stat"><strong>12</strong><span>segmentos</span></div>
+        <div class="big-stat"><strong>ERP +</strong><span>soluções de gestão</span></div>
+      </div>
+      <div class="reveal">
+        <div class="competition">
+          <div class="comp-label"><span>Mais simples / entrada</span><span>Mais completo / expansão</span></div>
+          <div class="comp-line"></div>
+          <div class="comp-brands"><span>Bling</span><span>Omie</span><span>Conta Azul</span><span>TOTVS Start</span></div>
+        </div>
+        <div class="campaign-note"><b>Campanha observada:</b> “O Brasil que faz, faz com TOTVS”. A proposta do grupo aproxima essa ideia da realidade de quem ainda depende de planilhas e controles manuais.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SLIDE 4 — PERSONA + OBJETIVO ==================== -->
+<section id="s4" class="slide alt" data-presenter="INTEGRANTE 2">
+  <div class="wrap persona-layout">
+    <div class="persona-left reveal">
+      <div class="eyebrow orange">02 · Público + objetivo</div>
+      <div class="persona-head"><div class="avatar">C</div><div><h2 class="display">Camila, 32 anos</h2><p>Microempreendedora · moda e acessórios</p></div></div>
+      <div class="persona-facts">
+        <div class="persona-fact"><b>Negócio</b><span>Loja de roupas e acessórios, dois funcionários e vendas pela internet.</span></div>
+        <div class="persona-fact"><b>Valoriza</b><span>Facilidade de uso, preço previsível, emissão fiscal e controle financeiro.</span></div>
+        <div class="persona-fact"><b>Receio</b><span>Pagar caro por um sistema difícil ou por funções que ainda não precisa.</span></div>
+      </div>
+    </div>
+    <div class="persona-right reveal">
+      <div class="eyebrow">A dor que a campanha precisa resolver</div>
+      <h3 class="display">Muitos controles. Pouca integração. Pouco tempo para administrar.</h3>
+      <p>Camila confere vendas no celular, usa planilha no financeiro e controla o estoque manualmente. A solução precisa parecer profissional sem parecer pesada.</p>
+      <div class="painflow"><div class="pain">CELULAR</div><div class="pain">PLANILHA</div><div class="pain">ESTOQUE MANUAL</div><div class="pain">FINANCEIRO</div></div>
+      <div class="kpi-strip">
+        <div class="kpi"><strong>500</strong><span>cadastros</span></div>
+        <div class="kpi"><strong>100</strong><span>ativações</span></div>
+        <div class="kpi"><strong>90 dias</strong><span>30 dias grátis · R$ 49,90/mês por 12 meses</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SLIDE 5 — CAMPANHA / PEÇA ==================== -->
+<section id="s5" class="slide white" data-presenter="INTEGRANTE 3">
+  <div class="wrap piece-layout">
+    <div class="piece-copy reveal">
+      <div class="eyebrow">03 · A campanha</div>
+      <h2 class="display title-md">Comece com o essencial.<br>Cresça sem trocar de sistema.</h2>
+      <p class="lead">A peça transforma a proposta estratégica em uma mensagem simples, concreta e fácil de lembrar.</p>
+      <div class="piece-points">
+        <div class="piece-point"><b>Conceito</b><span>Começar simples, com tecnologia profissional, e evoluir conforme o negócio cresce.</span></div>
+        <div class="piece-point"><b>Oferta acadêmica</b><span>R$ 49,90/mês por 12 meses + 30 dias gratuitos para experimentação.</span></div>
+        <div class="piece-point"><b>Conversão</b><span>Google Ads · Instagram · Landing Page.</span></div>
+      </div>
+      <div class="academic"><b>Importante:</b> “TOTVS Start”, o preço e o teste gratuito são propostas acadêmicas do grupo, não produtos ou condições oficiais da TOTVS.</div>
+    </div>
+    <div class="poster-shell reveal">
+      <div class="poster" aria-label="Peça A3 ilustrativa">
+        <div class="poster-inner">
+          <div class="poster-copy">
+            <div class="poster-brand">TOTVS <span>START · proposta acadêmica</span></div>
+            <div class="poster-kicker">Para micro e pequenas empresas</div>
+            <h3 class="display">Comece com o essencial.<br>Cresça sem trocar de sistema.</h3>
+            <p class="poster-text">Gestão simples para quem está começando. Tecnologia preparada para acompanhar o seu crescimento.</p>
+            <div class="price">R$ 49,90 <small>/ mês · 12 meses</small></div>
+            <div class="poster-cta"><b>TESTE GRÁTIS POR 30 DIAS</b><div class="qr"></div></div>
+          </div>
+          <div class="poster-ui">
+            <div class="ui-top"></div>
+            <div class="ui-card"><b>Financeiro</b><span>Fluxo de caixa e contas</span><div class="ui-bar"><i style="width:78%"></i></div></div>
+            <div class="ui-card"><b>Vendas</b><span>Visão da operação</span><div class="ui-bar"><i style="width:64%"></i></div></div>
+            <div class="ui-mini"><div>ESTOQUE</div><div>FISCAL</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SLIDE 6 — COMUNICAÇÃO INTEGRADA ==================== -->
+<section id="s6" class="slide alt" data-presenter="INTEGRANTE 4">
+  <div class="wrap">
+    <div class="integration-head reveal">
+      <div class="eyebrow orange">04 · Comunicação integrada</div>
+      <h2 class="display title-lg">O folheto chama a atenção. O digital conduz à ação.</h2>
+      <p class="lead">A campanha funciona como uma jornada, não como um conjunto solto de canais.</p>
+    </div>
+    <div class="journey">
+      <div class="journey-node reveal"><div class="num">01 · ATRAÇÃO</div><h3 class="display">Folheto</h3><p>Apresenta a proposta de forma rápida e encaminha o público por QR Code.</p></div>
+      <div class="journey-arrow reveal">→</div>
+      <div class="journey-node dark reveal"><div class="num">02 · CONSIDERAÇÃO</div><h3 class="display">Conteúdo digital</h3><p>Redes sociais, site e vídeos mostram problemas reais das PMEs e como a solução pode ajudar.</p></div>
+      <div class="journey-arrow reveal">→</div>
+      <div class="journey-node reveal"><div class="num">03 · CONVERSÃO</div><h3 class="display">Teste + contato</h3><p>Landing page e WhatsApp reduzem dúvidas e conduzem à experimentação.</p></div>
+    </div>
+    <div class="branch reveal"><div class="branch-item"><b>Instagram</b>Conteúdo rápido e recorrente.</div><div class="branch-item"><b>Site</b>Explicação simples da solução.</div><div class="branch-item"><b>Vídeos</b>Demonstrações práticas.</div><div class="branch-item"><b>WhatsApp</b>Dúvidas e relacionamento.</div></div>
+  </div>
+</section>
+
+
+<!-- ==================== SLIDE 7 — CONCLUSÃO ==================== -->
+<section id="s7" class="slide white" data-presenter="INTEGRANTE 4">
+  <div class="wrap conclusion-wrap">
+    <div class="conclusion-head">
+      <div class="reveal"><div class="eyebrow">05 · Conclusão</div><h2 class="display">PREÇO BAIXO <span>ABRE A PORTA.</span></h2></div>
+      <p class="conclusion-copy reveal">Mas é o crescimento do cliente — e a capacidade do sistema de acompanhar esse crescimento — que sustenta a relação no longo prazo.</p>
+    </div>
+    <div class="conclusion-flow">
+      <div class="flow-step reveal"><small>01</small><b>Entrada</b><p>Oferta simples e acessível para começar.</p></div>
+      <div class="flow-step reveal"><small>02</small><b>Adoção</b><p>Experiência prática com baixa barreira inicial.</p></div>
+      <div class="flow-step reveal"><small>03</small><b>Expansão</b><p>Novos módulos conforme a necessidade.</p></div>
+      <div class="flow-step reveal"><small>04</small><b>Relação</b><p>O crescimento do cliente fortalece o vínculo com a marca.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SLIDE 8 — REFERÊNCIAS ==================== -->
+<section id="s8" class="slide alt" data-presenter="GRUPO">
+  <div class="wrap">
+    <div class="refs-head reveal"><div><div class="eyebrow">Referências</div><h2 class="display title-md">Fontes utilizadas no briefing</h2></div><div class="refs-note">Referências conforme o briefing oficial do grupo.<br>Consulta indicada no documento: 17/09/2026.</div></div>
+    <div class="refs">
+      <div class="ref reveal"><div class="refnum">01</div><div><b>TOTVS — Sobre a TOTVS</b><span>totvs.com/sobre/</span></div></div>
+      <div class="ref reveal"><div class="refnum">02</div><div><b>TOTVS — Sistemas para micro e pequenas empresas</b><span>totvs.com/sistemas-pequenas-empresas/</span></div></div>
+      <div class="ref reveal"><div class="refnum">03</div><div><b>TOTVS — ERP para pequenas empresas</b><span>totvs.com/blog/erp/erp-para-pequenas-empresas/</span></div></div>
+      <div class="ref reveal"><div class="refnum">04</div><div><b>TOTVS — O Brasil que faz, faz com TOTVS</b><span>totvs.com/blog/negocios/o-brasil-que-faz-faz-com-totvs/</span></div></div>
+      <div class="ref reveal"><div class="refnum">05</div><div><b>TOTVS RI — Visão geral</b><span>ri.totvs.com/esg/visao-geral/</span></div></div>
+      <div class="ref reveal"><div class="refnum">06</div><div><b>Bling — ERP para pequena empresa</b><span>bling.com.br/segmentos/erp-pequena-empresa</span></div></div>
+      <div class="ref reveal"><div class="refnum">07</div><div><b>Omie — Sistema ERP para PMEs</b><span>omie.com.br/sistema-erp/</span></div></div>
+      <div class="ref reveal"><div class="refnum">08</div><div><b>Conta Azul — Sobre</b><span>contaazul.com/sobre/</span></div></div>
+      <div class="ref reveal"><div class="refnum">09</div><div><b>Lei nº 9.718/1998</b><span>planalto.gov.br/ccivil_03/leis/l9718compilada.htm</span></div></div>
+      <div class="ref reveal"><div class="refnum">10</div><div><b>Receita Federal</b><span>gov.br/receitafederal/</span></div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SLIDE 9 — ENCERRAMENTO ==================== -->
+<section id="s9" class="slide end" data-presenter="GRUPO">
+  <div class="wrap end-wrap reveal">
+    <div class="eyebrow">TOTVS START · proposta acadêmica</div>
+    <h2 class="display">COMEÇAR É SÓ<br><span>O PRIMEIRO PASSO.</span></h2>
+    <p class="end-tagline">Comece com o essencial. Cresça sem trocar de sistema.</p>
+    <div class="end-bottom"><strong>Obrigado. Perguntas?</strong><span>UNIP · Comunicação Integrada a Marketing e Vendas · 2026</span></div>
+  </div>
+</section>
+
+<script src="js/apresentacao.js"></script>
+</body>
+</html>
